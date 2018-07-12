@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kafka-net", "kafka-net\kafka-net.csproj", "{1343EB68-55CB-4452-8386-24A9989DE1C0}"
 EndProject
@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NielsTest", "NielsTest\NielsTest.csproj", "{E4AEA8DF-0D71-4EDE-A2D3-D65B04BFA245}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,8 +43,15 @@ Global
 		{53E0B3CE-6C41-4C8A-8B66-9BD03667B1E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53E0B3CE-6C41-4C8A-8B66-9BD03667B1E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53E0B3CE-6C41-4C8A-8B66-9BD03667B1E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4AEA8DF-0D71-4EDE-A2D3-D65B04BFA245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4AEA8DF-0D71-4EDE-A2D3-D65B04BFA245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4AEA8DF-0D71-4EDE-A2D3-D65B04BFA245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4AEA8DF-0D71-4EDE-A2D3-D65B04BFA245}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89747B78-317F-42FB-8E09-16D9AD3606E5}
 	EndGlobalSection
 EndGlobal
